@@ -1,0 +1,29 @@
+.svg-background {
+	background-color:#E3F2FD
+}
+.country {
+	pointer-events:all;
+	stroke:black;
+	stroke-width:0.5px;
+	fill:#DCEDC8;
+	transition:all 0.2s ease-out;
+}
+.country:hover 
+{	
+	fill:#8BC34A;
+	stroke:black;
+	stroke-width:0.75px;
+}
+.selected {
+	stroke:#558B2F;
+	fill:#8BC34A;
+}
+
+.circles {
+pointer-events:none;
+-webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); 
+        transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
+}
+
